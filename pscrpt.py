@@ -26,7 +26,7 @@ def parse_package(package_path):
     scripts = data.get('scripts', {})
     for key, value in scripts.items():
         print(
-            f'{Style.BRIGHT}"{Fore.BLUE}{key}"{Style.RESET_ALL}{Fore.GREEN}: "{value}"')
+            f'{Style.BRIGHT}{Fore.BLUE}"{key}"{Style.RESET_ALL}{Fore.GREEN}: "{value}"')
 
 
 if __name__ == "__main__":
